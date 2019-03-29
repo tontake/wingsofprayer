@@ -1,0 +1,76 @@
+*{
+margin:0;
+
+}
+/*styling the navbar */
+.logo{
+    letter-spacing:2px;
+    text-transform: uppercase;
+    font-family: ' Verdana, sans-serif ';
+    font-size: 1.1em;
+}
+.word{
+    color:blueviolet;
+}
+.word2{
+    color:orangered;
+}
+.navbar .navbar-nav > li > a {
+ 
+    color: rgb(255, 0, 200)!important;
+   
+  }
+  .navbar-nav > li{
+    
+    padding-right:15px;
+    font-size:1.1em;
+    text-transform: uppercase;
+    font-weight: 450;
+  }
+  .navbar .navbar-nav > li > a:hover {
+ 
+    border-bottom: 1px solid #000!important;
+   
+  }
+/* end of styling the navbar*/
+/* hero section */
+.hero-image {
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0.4)), url("hero.jpg");
+    
+    background-position: center;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  #members-sec{
+      margin-top: 10px;
+      padding:5px;
+      margin-bottom: 10px;
+  }
+  .card{
+    border-radius:10px;
+    border:2px solid #45eda3;
+    box-shadow:  5px 10px #888888;
+    padding:30px;
+  }
+  .me-1{
+      font-family: Cambria;
+      
+      padding:5px;
+
+  }
+  hr{
+     margin-left:40%;
+     width: 20%; 
+     font-weight: 400;
+  }
