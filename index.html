@@ -11,6 +11,7 @@
     <title>WINGS OF PRAYER</title>
   </head>
   <body>
+  
       <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light  bg-transparent navbar sticky-top"  ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +23,7 @@
             <span class="logo"><span class="word">W</span>ings of <span class="word2">P</span>rayer</span>
 
           </a>
-          <ul class="navbar-nav ml-5">
+          <ul class="navbar-nav ml-5 smooth-scroll">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -30,7 +31,7 @@
               <a class="nav-link" href="#">Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#members-sec">About</a>
               </li>
             <li class="nav-item">
               <a class="nav-link " href="#">Contact</a>
@@ -39,6 +40,8 @@
           
         </div>
       </nav>
+	  
+	 
       
       <div class="hero-image">
             <div class="hero-text">
@@ -47,58 +50,127 @@
               <button class="btn btn-outline-primary btn-lg">Learn More</button>
             </div>
           </div>
+		  <div class="sec-header text-center">
+
+            <h1 class="me-1"> Video</h1>
+            <hr>
+          </div>
+		  <div class="banner">
+		 <!-- <video  autoplay muted loop><source src="church.mp4" type="video/mp4">
+		  </video>-->
+		  
+		  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FZaogaFIFWingsofPrayer%2Fvideos%2F2167928370193148%2F&show_text=0&width=560" width="560" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+		  </div>
           <div class="sec-header text-center">
 
             <h1 class="me-1"> Members</h1>
             <hr>
           </div>
-          <section id="members">
+          
                 <div id="members-sec">
                         <div class="d-flex flex-row justify-content-between"> 
                                 
-                            <div class="card" style="max-width: 18rem;" >
-                                    <img class="card-img-top rounded-circle" src="images/zaoga.jpg" alt="Card image cap" width="100px"; height="180px";>
-                                    <div class="card-body">
-                                <div class="card-title"><h3>Pastor</h3></div>
-                                <p class="card-text"></p>
-                                <div class="btn-cntr"><button class="btn btn-info">Read More...</button></div>
-                            </div>
-                            </div>
-                            
-                            <div class="card"style="max-width: 18rem;" >
-                                    <img class="card-img-top rounded-circle" src="images/1.jpg" alt="Card image cap" width="100px"; height="180px";>
+                            <div class="card"  >
+                                    <img class="card-img-top rounded-circle" src="images/avatar.png" alt="Card image cap" width="100px"; height="180px";>
                                     <div class="card-body">
                                 <div class="card-title"><h3>Co-ordinator</h3></div>
                                 <p class="card-text"></p>
-                                <div class="btn-cntr"><button class="btn btn-info">Read More...</button></div>
+                                <div class="btn-cntr"><button class="btn btn-info">Follow</button></div>
                             </div>
                             </div>
-                            <div class="card" style="max-width: 18rem;">
-                                    <img class="card-img-top rounded-circle" src="images/zaoga.jpg" alt="Card image cap" width="100px"; height="180px";>
+                            
+                            <div class="card" style="max-width:18rem;" >
+                                    <img class="card-img-top rounded-circle" src="images/1.jpg" alt="Card image cap" width="100px"; height="180px";>
                                     <div class="card-body">
-                                <div class="card-title"><h3>Elder M. Chikomo</h3></div>
+                                <div class="card-title"><h3>Pastor</h3></div>
                                 <p class="card-text"></p>
-                                <div class="btn-cntr"><button class="btn btn-primary">Read More...</button></div>
+                                <div class="btn-cntr"><button class="btn btn-info">Follow</button></div>
+                            </div>
+                            </div>
+                            <div class="card"style="width:18rem;"  >
+                                    <img class="card-img-top rounded-circle" src="images/avatar1.png" alt="Card image cap" width="100px"; height="180px";>
+                                    <div class="card-body">
+                                <div class="card-title"><h3>Elder </h3></div>
+                                <p class="card-text"></p>
+                                <div class="btn-cntr"><button class="btn btn-info">Follow</button></div>
                             </div>
                             </div>
                                                      
                         </div>
+						 <a href="#" id="scroll" ><span></span></a>
                     </div>
+					<div class="sec-header text-center">
+
+            <h1 class="me-1"> Contact Us</h1>
+            <hr>
+          </div>
+					<footer>
+					<div class="container-fluid contact-us ">
+					<div  class="row">
+					<div class="offset-md-1 col-md-3">
+					<h2>Address</h2>
+					<p>18 Meldrum ave<br>
+					Kingsdale <br>
+					Bulawayo<br>
+					cell : 0773772888<br>
+					email : graceglory591@gmail.com
+					</p>
+					
+					
+					</div>
+					<div class=" col-md-4"><h5>Map</h5>
+					<div id="map" ></div>
+                     </div>
+				
+					<div class=" col-md-4">
+	<div class="form-group row">
+    <label for="inputPassword" class="col-sm-3 col-form-label">Name</label>
+    <div class="col-sm-9">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Name">
+    </div>	
+    </div>	
+  
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-3 col-form-label">Email</label>
+    <div class="col-sm-9">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group row ">
+  <label for="exampleFormControlTextarea1" class="col-sm-2">Notes</label>
+  <div class="col-sm-10">
+  <textarea class="form-control " id="Textarea1" rows="5"></textarea>
+</div>
+</div>
+  <button type="submit" class=" btn-primary btn-lg ml-5 ">Submit</button>
+</form>
+					
+					
+					
+					
+					</div>
+					
+					
+					
+					
+					
+					</div>
           
+ 
+                 </footer>
 
 
 
-
-
-          </section>
+          
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+   
     <script src="js\typed.min.js"></script>
+	 <script src="js\main.js"></script>
     <script>
             var typed2 = new Typed('#test', {
                 strings: [' <strong>WELCOME TO</strong>', ' <strong>WINGS OF PRAYER</strong>', '<strong>GOD BLESS YOU</strong>'],
@@ -107,6 +179,29 @@
                 
                 loop: true
               });
-            </script>
+			  
+    
+			  
+		function myMap() {
+		var mylat=new google.maps.LatLng(-20.105527, 28.617662);
+var mapProp= {
+  center:mylat,
+  zoom:16,
+};
+var map = new google.maps.Map(document.getElementById("map"),mapProp);
+var marker = new google.maps.Marker({
+    position: mylat,
+    title:"Hello World!"
+});	  
+ marker.setMap(map);           
+	
+}	  
+</script>
+<script async defer  
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCceo_s0vI2gEO110z2pl2u9hzzRUqpWsc&callback=myMap"></script>
+    
+ 
+			
   </body>
+ 
 </html>
